@@ -1,6 +1,40 @@
 <!DOCTYPE html>
-<link href= "./style.css" type="text/css" rel="stylesheet">
-<script type="text/javascript" src = "./code.js"></script>
 <html>
-    <p> car </p>
-    </html>
+
+  <head>
+      <title >RPS</title>
+      <link href= "./style.css" type="text/css" rel="stylesheet">
+      <link rel="stylesheet" href="code.js">
+      <script src="/code.js" defer></script>
+  </head>
+  <body>
+      <header>
+        <h1>Rock Paper Scissors</h1>
+      </header>
+      <div class="score-board">
+          <div id="user" class="badge">user</div>
+          <div id="computer" class="badge">comp</div>
+          <span id="user-score">0</span>:<span id="computer-score">0</span>
+      </div>
+
+      <div class="results">
+          <p>Click to play</p>
+      </div>
+
+      <div class="choices">
+          <div class="choice" id="Rock">
+              <button > Rock </button>
+          </div>
+          <div class="choice" id="Paper">
+              <button > Paper  </button>
+          </div>
+          <div class="choice" id="Scissors">
+            <button > Scissors </button>
+          </div>
+      </div>
+
+
+
+      <p id='action-message'>Make your move</p>
+  </body>
+</html>
